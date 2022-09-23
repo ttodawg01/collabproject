@@ -1,0 +1,29 @@
+#signin {
+    position: absolute;
+}
+#searchbar {
+    border-radius: 20px;
+    width: 275px;
+}
+#signup {
+    margin-left: 140px;
+    color: white;
+    border-radius: 20px;
+    width: 130px;
+    margin-bottom: 10px;
+}
+#signuph1 {
+    margin-left: 80px;
+}
+#smalltext {
+    margin-left: 100px;
+}
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+#image {
+    width:500px;
+    margin-left: 530px;
+    margin-top: 100px;
+}
