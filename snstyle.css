@@ -20,15 +20,30 @@
 
 /* FLEX BOX ADJUST */
 
-.flexbox-container{
-    display:grid;
-    grid-template-columns: .7fr 2fr 1.1fr;
+.flexbox-container-2{
+    border: 2px dotted black;
+    
+    
+}
+
+.flexbox-container-3{
+    border: 2px dotted black;
+    padding-left: 
+    
 }
 
 .flexbox-container-1{
-    
+    display:grid;
+    grid-template-columns: .7fr 2fr 1.1fr;
     
 }
+
+.grid-item-2{
+    display:grid;
+    grid-template-columns: 2fr 1fr; 
+    gap:0px 100px; 
+}
+
 
 .flexbox-item{
     display: flex;
@@ -57,7 +72,7 @@
 
 }
 
-
+/* navbar ""sign-in */
 .nav-ptext-c1{
     background:white;
     border:2px solid blue;
@@ -65,10 +80,9 @@
     padding-left: 10px;
     padding-right: 10px;
     border-radius:5px;
-    
-
-
 }
+
+/* Navbar-"try it free"*/
 
 .nav-ptext-c2{
     background:blue;
