@@ -9,25 +9,32 @@
     
 }
 
-.grid-item{
+.grid-item-1{
     width: stretch;
-    margin: 10px;
+    margin: 0px;
     border: 3px solid black;
+    padding-bottom: 5px;
     
     
+}
+
+
+.flexbox-container-3{
+    padding-left:0px;
+
 }
 
 
 /* FLEX BOX ADJUST */
 
 .flexbox-container-2{
-    border: 2px dotted black;
+    border: 2px solid black;
     
     
 }
 
 .flexbox-container-3{
-    border: 2px dotted black;
+    border: 2px solid black;
     padding-left: 
     
 }
@@ -41,7 +48,15 @@
 .grid-item-2{
     display:grid;
     grid-template-columns: 2fr 1fr; 
-    gap:0px 100px; 
+   
+}
+
+.flexbox-item-a1{
+    border:1px dotted black;
+    background-color: gray;
+    float:right;
+    
+
 }
 
 
