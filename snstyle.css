@@ -1,0 +1,88 @@
+/* CSS GRID ADJUST */
+
+.grid-container{
+    display:grid;
+    padding-left:50px ;
+    padding-right:80px;
+    
+    
+    
+}
+
+.grid-item{
+    width: stretch;
+    margin: 10px;
+    border: 3px solid black;
+    
+    
+}
+
+
+/* FLEX BOX ADJUST */
+
+.flexbox-container{
+    display:grid;
+    grid-template-columns: .7fr 2fr 1.1fr;
+}
+
+.flexbox-container-1{
+    
+    
+}
+
+.flexbox-item{
+    display: flex;
+    
+    
+
+}
+
+.flexbox-item-2{
+    justify-content:space-around;
+    height:40px;
+    padding-left: 20px;
+    padding-top:9px;
+
+
+}
+
+.flexbox-item-3{
+    justify-content:space-between;
+    height:40px;
+    padding-left: 70px;
+    padding-top:5px;
+    padding-bottom:5px;
+
+    
+
+}
+
+
+.nav-ptext-c1{
+    background:white;
+    border:2px solid blue;
+    color:blue;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius:5px;
+    
+
+
+}
+
+.nav-ptext-c2{
+    background:blue;
+    border:2px solid blue;
+    color:white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius:5px;
+}
+
+
+
+
+
+
+
+
