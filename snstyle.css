@@ -1,72 +1,71 @@
 /* CSS GRID ADJUST */
 
-.grid-container{
+.grid-item-1{
     display:grid;
     padding-left:50px ;
     padding-right:80px;
-    
-    
-    
-}
-
-.grid-item-1{
     width: stretch;
-    margin: 0px;
-    /* border: 3px solid black; */
     padding-bottom: 8px;
     margin-top:30px;
-    margin-bottom:20px;
-    
-    
-}
-
-
-.flexbox-container-3{
-    padding-left:0px;
-
-}
-
-
-/* FLEX BOX ADJUST */
-
-.flexbox-container-2{
-    border: 2px solid black;
-    
-    
-}
-
-.flexbox-container-3{
-    border: 2px solid black;
-    padding-left: 
-    
-}
-
-.flexbox-container-1{
-    display:grid;
-    grid-template-columns: .7fr 2fr 1.1fr;
-    
+    margin-bottom:20px;  
 }
 
 .grid-item-2{
     display:grid;
-    grid-template-columns: 2fr 1fr; 
-   
+    padding-left:50px ;
+    padding-right: 80px;
 }
 
-.flexbox-item-a1{
-    border:1px dotted black;
-    background-color: gray;
-    float:right;
+.grid-item-2{
+    display:grid;
+    grid-template-columns: 1.35fr 1fr;  
+}
+
+.flexbox-container-8a{
+    padding-left:535px;
+}
+
+/* FLEX BOX ADJUST */
+
+.flexbox-container{
+    border: 2px solid black;  
+}
+
+.flexbox-container-1{
+    display:grid;
+    grid-template-columns: .7fr 2fr 1.1fr;   
+}
+
+.flexbox-container-2{
+    border: 2px solid black; 
+}
+
+
+.grid-item-2a-1{
+    display:grid;
+    align-items: space-around; 
+}
+
+.flexbox-item-2a-left{
+    margin-left: 30px;
+}
+
+.flexbox-item-2aa-left{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    margin-left: 30px; 
+}
+
+.ptext-2a-2{
+    border:2px solid black;
     
-
 }
 
-
+.flexbox-item-2aa-right{
+    padding-left: 50px;
+}
 .flexbox-item{
     display: flex;
-    
-    
-
 }
 
 .flexbox-item-2{
@@ -74,8 +73,7 @@
     height:40px;
     padding-left: 20px;
     padding-top:18px;
-
-
+    margin-right: 1px;
 }
 
 .flexbox-item-3{
@@ -111,10 +109,7 @@
     border-radius:5px;
 }
 
-flexbox-item-4a{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-}
+
 
 
 
