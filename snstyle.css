@@ -21,10 +21,6 @@
     grid-template-columns: 1.35fr 1fr;  
 }
 
-.flexbox-container-8a{
-    padding-left:535px;
-}
-
 /* FLEX BOX ADJUST */
 
 .flexbox-container{
@@ -38,6 +34,7 @@
 
 .flexbox-container-2{
     border: 2px solid black; 
+    margin-right: -20px;
 }
 
 
@@ -57,13 +54,65 @@
 }
 
 .ptext-2a-2{
-    border:2px solid black;
+    border:2px solid rgb(8, 80, 248); 
+    border-radius:10px;
+    color:rgb(8, 80, 248); 
+    font-weight: bold;
+    margin-right: 160px; 
+    margin-left: 40px; 
+    padding-left: 15px;
+    padding-right:15px;
+    padding-bottom:10px;
+    padding-top:10px;
+    margin-top:20px
     
 }
+
+.chatbox{
+    
+    margin-right: 10px;
+}
+
+.ptext-2a-1{
+    border:2px solid rgb(8, 80, 248); 
+    border-radius:10px;
+    background:blue;
+    color:white;
+    padding-right:1px;
+    padding-left:20px;
+    padding-bottom:10px;
+    padding-top:10px;
+    margin-right: -29px;
+    margin-top:20px
+    
+    
+}
+
 
 .flexbox-item-2aa-right{
     padding-left: 50px;
 }
+
+.flexbox-item-2a-1-e{
+    color:gray;
+}
+
+.flexbox-item-2a-1-c{
+color:gray;
+font-weight: bold;
+
+
+}
+
+.flexbox-item-2a-1-b{
+    margin-top: -15px;
+
+}
+
+.flexbox-item-2a-1-a{
+    padding-top: 25px;
+}
+
 .flexbox-item{
     display: flex;
 }
@@ -107,6 +156,24 @@
     padding-left: 10px;
     padding-right: 10px;
     border-radius:5px;
+}
+
+.ul-2a-1-f{
+    border:2px solid black;
+    display:flex;
+    padding-left:0px;
+    font-size: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    
+}
+
+.list-item-2a-2{
+    margin-left: 35px;
+}
+
+.list-item-2a-3{
+    margin-left: 35px;
 }
 
 
