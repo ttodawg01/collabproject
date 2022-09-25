@@ -198,10 +198,52 @@ font-weight: bold;
     text-shadow: 1px 1px 1px lightgrey;
     margin-top: 20px;
     color:rgb(43, 43, 43)
+}
+
+.grid-item-4{
     
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.flex-container-4a-1{
+    border:2px solid black;
+    
+    border-radius: 20px;
+    
+   
+    
+}
+   
+.flex-container-4a-2{
+    border:2px solid black;
+    border-radius: 20px;
+    padding:25px;
+    
+}
+
+.flex-container-4a-3{
+    border:2px solid black;
+    border-radius: 20px;
+    padding:25px;
+    
+}
+
+.flex-container-4a-4{
+    border:2px solid black;
+    border-radius: 20px;
+    padding:25px;
+    
+}
 
 
 
+.pbox-t{
+    display:flex;
+    align-content: center;
+}
+    
 
 
 
