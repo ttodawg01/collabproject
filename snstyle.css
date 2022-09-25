@@ -193,6 +193,7 @@ font-weight: bold;
 
 .flexbox-container-3a-3{
     display:grid;
+    font-size: 14px;
     justify-content: center;
     text-align: center;
     text-shadow: 1px 1px 1px lightgrey;
@@ -200,42 +201,102 @@ font-weight: bold;
     color:rgb(43, 43, 43)
 }
 
-.grid-item-4{
-    
-    display: flex;
-    justify-content: space-around;
-    
-}
+
 
 .flex-container-4a-1{
-    border:2px solid black;
-    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     border-radius: 20px;
-    
-   
-    
+    margin-top: 50px;   
 }
    
-.flex-container-4a-2{
-    border:2px solid black;
-    border-radius: 20px;
-    padding:25px;
+.pbox-1{
+    border:1px solid blue;
+    background-color: blue;
+    border-radius: 10px;
+    width: 120px; 
+    height: 135px; 
+}
+
+.pbox-1-t{
+    display:flex;
+    color: white;
+    justify-content: center; 
     
 }
 
-.flex-container-4a-3{
-    border:2px solid black;
-    border-radius: 20px;
-    padding:25px;
+.pbox-1-p{
+    display: flex;
+    margin-bottom: 18px;
+    margin-top: 27px;
+    margin-left: 28px   
+}
+
+.pbox-2{
+    border:1px solid gray;
+    border-radius: 10px;
+    width: 120px;
+    height: 135px;
     
 }
 
-.flex-container-4a-4{
-    border:2px solid black;
-    border-radius: 20px;
-    padding:25px;
+.pbox-2-t{
+    display:flex;
+    justify-content: center; 
     
 }
+
+.pbox-2-p{
+    display: flex;
+    margin-bottom: 23px;
+    margin-top: 37px;
+    margin-left: 40px   
+}
+
+.pbox-3{
+    border:1px solid grey;
+    border-radius: 10px;
+    width: 120px;
+    height: 135px;
+    
+}
+
+.pbox-3-t{
+    display:flex;
+    justify-content: center; 
+    
+}
+
+.pbox-3-p{
+    display: flex;
+    margin-bottom: 28px;
+    margin-top: 16px;
+    margin-left: 34px   
+}
+
+
+.pbox-4{
+    border:1px solid gray;
+    border-radius: 10px;
+    width: 120px;
+    height: 135px;
+    
+}
+
+.pbox-4-t{
+    display:flex;
+    justify-content: center; 
+    
+}
+
+.pbox-4-p{
+    display: flex;
+    margin-bottom: 23px;
+    margin-top: 37px;
+    margin-left: 40px   
+}
+
 
 
 
