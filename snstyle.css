@@ -349,7 +349,7 @@ font-weight: bold;
 
 
 .flex-container-5a-2{
-    border:2px solid black;
+    
    
     border-radius: 20px;
     
@@ -359,7 +359,7 @@ font-weight: bold;
 }
 
 .b-blue-box{
-    border:2px solid black;
+   
     padding-right: 150px;
     padding-top: 75px;
     border-radius: 0 20px 20px 0;
@@ -408,7 +408,29 @@ font-weight: bold;
     margin-bottom: 10px;
     padding-top:8px;
 }
+.grid-container-7a{
+    
+    display:flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 1.5px 2px 3px lightgray;
+    margin-top: 160px;
 
+}
+
+.grid-container-8-a{
+    
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-gap:250px;
+    justify-content: center;
+    padding-bottom: 70px;
+    margin-top: 50px;
+    
+    
+
+}
 
     
 
