@@ -445,27 +445,28 @@ font-weight: bold;
 
 .pbox-1:hover{
     animation:payments 1s;
-    animation-iteration-count: infinite;
+    animation-fill-mode: both;
 }
 
 .pbox-1-t:hover{
     animation: payments-text 1s;
-    animation-iteration-count: infinite;
+    animation-fill-mode: both;
 }
 
 .pbox-2:hover{
     animation:retain 1s;
-    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    
 }
 
 .pbox-3:hover{
     animation:convert 1s;
-    animation-iteration-count: infinite;
+    animation-fill-mode: both;
 }
 
 .pbox-4:hover{
     animation:convert 1s;
-    animation-iteration-count: infinite;
+    animation-fill-mode: both;
 }
 
 .money-sign{
