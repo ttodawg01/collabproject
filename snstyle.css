@@ -314,18 +314,37 @@ font-weight: bold;
     margin-top:150px;
     margin-left:60px;
     margin-right:60px;
-    border:1px dotted red
+    border-radius: 20px;
+    
+   
+    
+    
     
 }
 
+.b-blue-box{
+    background-color: blue;
+   
+}
+
+.grid-item-5{
+
+  /* background-color: blue;   */
+  overflow-x: visible; 
+  /* clip-path: inset(0% 0% 1px 340px);  */
+}
 .ccpic{
     display:flex;
     padding-top: 100px;
 }
 
+.ccpic{
+    
+}
+
 .flex-container-5a-1{
-    border:2px solid black;
-    border-radius: 20px;  
+    border:1px solid grey;
+    border-radius:20px 0 0 20px ; 
 }
 
 
@@ -333,7 +352,7 @@ font-weight: bold;
     border:2px solid black;
    
     border-radius: 20px;
-    background-color: blue;
+    
     color: white;
     
     padding:30px;
@@ -343,6 +362,8 @@ font-weight: bold;
     border:2px solid black;
     padding-right: 150px;
     padding-top: 75px;
+    border-radius: 0 20px 20px 0;
+   
     
 }
 
