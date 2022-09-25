@@ -10,7 +10,9 @@
     <title>CRMlanding</title>
     <style>
         @keyframes chatbox {
+                            
     from{
+        transition: 500ms ease-in;
         border:.0px solid rgb(175, 198, 255); 
         box-shadow: 1px 1px 1px rgb(135, 135, 245);
         text-shadow: 1px 1px 1px rgb(135, 135, 245);
@@ -19,7 +21,7 @@
         font-weight: 400;
         background-color: rgb(228, 228, 245);
     }
-    25% {
+    10% {
         border:.5px solid rgb(63, 98, 187); 
         box-shadow: 4px 5px 3px rgb(83, 83, 161);
         text-shadow: 4px 5px 3px rgb(164, 164, 175);
@@ -29,15 +31,109 @@
 
     }
     to {
+        transition: 500ms ease-out;
         border:2px solid rgb(8, 80, 248); 
         box-shadow: 20px 20px 20px rgb(206, 206, 219);
         text-shadow: 25px 5px 100px rgba(195, 195, 199, 0.411);
         border-radius:20px;
         color:rgb(8, 80, 248); 
         font-weight: 550
-    
+
+        }
         }
 
+        @keyframes payments{
+        from{
+            background-color: blue;
+            box-shadow: 1px 1px 1px rgb(135, 135, 245);
+            transition: 500ms ease-in;
+            
+        }
+        10%{
+            background-color: rgb(130, 130, 255);
+            box-shadow: 4px 5px 3px rgb(83, 83, 161);
+        }
+        to{
+            background-color: white;
+            box-shadow: 20px 20px 20px rgb(206, 206, 219);
+            transition: 500ms ease-out;
+
+        }
+        }
+
+        @keyframes payments-text {
+        from{
+            color: white;
+            text-shadow: 1px 1px 1px rgb(135, 135, 245);
+            transition: 600ms ease-in-out;
+        }
+        10%{
+            color: rgb(130, 130, 255);
+            text-shadow: 4px 5px 3px rgb(164, 164, 175);
+        }
+        to{
+            color: blue;
+            text-shadow: 25px 5px 100px rgba(195, 195, 199, 0.411);
+            transition: 600ms ease-in-out;
+
+        }
+        }
+
+        @keyframes retain{
+        from{
+            background-color: white;
+            box-shadow: 1px 1px 1px rgb(135, 135, 245);
+            transition: 230ms ease-in-out
+        }
+        10%{
+            background-color: rgb(130, 130, 255);
+            box-shadow: 4px 5px 3px rgb(83, 83, 161);
+        }
+        to{
+            background-color: blue;
+            box-shadow: 20px 20px 20px rgb(206, 206, 219);
+            transition: 500ms ease-in-out
+
+        }
+        }
+
+        @keyframes reporting{
+        from{
+            background-color: white;
+            box-shadow: 1px 1px 1px rgb(135, 135, 245);
+            transition: 230ms ease-in-out;
+        }
+        10%{
+            background-color: rgb(130, 130, 255);
+            box-shadow: 4px 5px 3px rgb(83, 83, 161);
+        }
+        to{
+            background-color: blue;
+            box-shadow: 20px 20px 20px rgb(206, 206, 219);
+            transition: 500ms ease-in-out;
+
+        }
+        }
+
+        @keyframes convert{
+        from{
+            background-color: white;
+            box-shadow: 1px 1px 1px rgb(135, 135, 245);
+            transition: 230ms ease-in-out;
+        }
+        25%{
+            background-color: rgb(130, 130, 255);
+            box-shadow: 4px 5px 3px rgb(83, 83, 161);
+        }
+        to{
+            background-color: blue;
+            box-shadow: 20px 20px 20px rgb(206, 206, 219);
+            transition: 500ms ease-in-out;
+
+        }
+        }
+
+        
     </style>
 </head>
 <body>
@@ -89,7 +185,7 @@
         </div>
         <div class="grid-item grid-item-4">
             <div class="flex-container-4a-1">
-                <div class="pbox-1"><img src="Images/Path 236.png" height="55px"  class="pbox-p pbox-1-p"><p class="pbox-1-t pbox-t">Payments</p></div>
+                <div class="pbox-1"><img src="Images/Path 236.png" height="55px"  class="pbox-p pbox-1-p"><p class="pbox-1-t pbox-t">Payments</p><p class="money-sign">$</p></div>
                 <div class="pbox-2"><img src="Images/Page-1.png" height="40px" class="pbox-p pbox-2-p"><p class="pbox-2-t pbox-t">Retain</p></div>
                 <div class="pbox-3"><img src="Images/layer1.png" height="55px" class="pbox-p pbox-3-p"><p class="pbox-3-t pbox-t">Reporting</p></div>
                 <div class="pbox-4"><img src="Images/upanddown opposite sidebyside updown directions two arrows.png" height=40px" class="pbox-p pbox-4-p"><p class="pbox-4-t pbox-t">convert</p></div>
