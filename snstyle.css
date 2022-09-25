@@ -75,11 +75,11 @@
 }
 
 .ptext-2a-1{
-    border:2px solid rgb(8, 80, 248);
-    box-shadow: 8px 8px 3px rgb(212, 229, 240); 
-    border-radius:10px;
-    background:blue;
-    color:white;
+    /* border:2px solid rgb(8, 80, 248); */
+    /* box-shadow: 8px 8px 3px rgb(212, 229, 240);  */
+    /* border-radius:10px; */
+    /* background:blue; */
+    /* color:white; */
     padding-right:1px;
     padding-left:20px;
     padding-bottom:10px;
@@ -436,11 +436,16 @@ font-weight: bold;
 
 }
 
+.ptext-2a-1:hover{
+    animation: signup-box 1s;
+    animation-fill-mode: both;
+}
 
-.ptext-2a-2{
+
+.ptext-2a-2:hover{
   
     animation: chatbox 2s;
-    animation-iteration-count: infinite;
+    animation-fill-mode: both;
 }
 
 .pbox-1:hover{
