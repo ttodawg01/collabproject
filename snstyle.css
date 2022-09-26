@@ -483,6 +483,14 @@ font-weight: bold;
 
     
 }
+
+
+.nav-ptext-c2{
+    animation: try-it 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+}
   
 
 
