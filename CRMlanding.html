@@ -4,9 +4,318 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="snstyle.css">
+    <title>CRMlanding</title>
+    <style>
+
+     
+
+        @keyframes try-it{
+    from{
+        transition: 500ms ease-in;
+        border:.5px solid rgb(175, 198, 255); 
+        box-shadow: 1px 1px 1px rgb(135, 135, 245);
+        text-shadow: 1px 1px 1px rgb(135, 135, 245);
+        border-radius:10px;
+        color:blue;
+        font-weight: 400;
+        background-color: rgb(228, 228, 245);
+    }
+    10%{
+        border:.0px solid rgb(63, 98, 187); 
+        color:rgb(75, 76, 172);
+        box-shadow: 4px 5px 3px rgb(83, 83, 161);
+        text-shadow: 1.5px 1.5px 50px rgb(204, 204, 204);
+        border-radius:15px;
+        background-color:rgb(60, 122, 255); 
+        font-weight: 400;
+    }
+    to{
+        transition: 500ms ease-out;
+        color:white;
+        border:0px solid rgb(8, 80, 248); 
+        box-shadow: 20px 20px 20px rgb(206, 206, 219);
+        text-shadow: 4px 5px 100px rgb(255, 255, 255);
+        border-radius:20px;
+        background-color:rgb(8, 80, 248); 
+        font-weight: 400
+
+    }
+
+
+
+        }
+
+        @keyframes chatbox {
+                            
+    from{
+        transition: 500ms ease-in;
+        border:.0px solid rgb(175, 198, 255); 
+        box-shadow: 1px 1px 1px rgb(135, 135, 245);
+        text-shadow: 1px 1px 1px rgb(135, 135, 245);
+        border-radius:10px;
+        color:rgb(65, 76, 102); 
+        font-weight: 400;
+        background-color: rgb(228, 228, 245);
+    }
+    10% {
+        border:.5px solid rgb(63, 98, 187); 
+        box-shadow: 4px 5px 3px rgb(83, 83, 161);
+        text-shadow: 4px 5px 3px rgb(164, 164, 175);
+        border-radius:15px;
+        color:rgb(36, 78, 175); 
+        font-weight: 500;
+
+    }
+    to {
+        transition: 500ms ease-out;
+        border:2px solid rgb(8, 80, 248); 
+        box-shadow: 20px 20px 20px rgb(206, 206, 219);
+        text-shadow: 25px 5px 100px rgba(195, 195, 199, 0.411);
+        border-radius:20px;
+        color:rgb(8, 80, 248); 
+        font-weight: 550
+
+        }
+        }
+
+        @keyframes signup-box{
+            from{
+                border:2px solid rgb(255, 255, 255);
+                box-shadow: 0px 0px 0px rgb(212, 229, 240); 
+                text-shadow: 1px 1px 1px rgb(70, 70, 70);
+                border-radius:5px;
+                background:rgb(255, 255, 255);
+                color:rgb(0, 0, 0);
+                padding-right:1px;
+                padding-left:20px;
+                padding-bottom:10px;
+                padding-top:10px;
+                margin-right: -29px;
+                margin-top:20px
+
+            }
+            25%{
+                border:2px solid rgb(159, 188, 255);
+                box-shadow: 8px 8px 3px rgb(212, 229, 240); 
+                text-shadow: 4px 5px 3px rgb(164, 164, 175);
+                border-radius:20px;
+                background:rgb(200, 200, 255);
+                color:rgb(173, 173, 173);
+                padding-right:1px;
+                padding-left:20px;
+                padding-bottom:10px;
+                padding-top:10px;
+                margin-right: -29px;
+                margin-top:20px
+
+            }
+            to{
+                border:2px solid rgb(8, 80, 248);
+                box-shadow: 8px 8px 3px rgb(212, 229, 240); 
+                text-shadow: 25px 5px 100px rgba(231, 231, 231, 0.411);
+                border-radius:25px;
+                background:blue;
+                color:white;
+                padding-right:1px;
+                padding-left:20px;
+                padding-bottom:10px;
+                padding-top:10px;
+                margin-right: -29px;
+                margin-top:20px
+
+            }
+        }   
+        
+
+        @keyframes payments{
+        from{
+            background-color: blue;
+            box-shadow: 1px 1px 1px rgb(135, 135, 245);
+            transition: 500ms ease-in;
+            
+        }
+        10%{
+            background-color: rgb(130, 130, 255);
+            box-shadow: 4px 5px 3px rgb(83, 83, 161);
+        }
+        to{
+            background-color: white;
+            box-shadow: 20px 20px 20px rgb(206, 206, 219);
+            transition: 500ms ease-out;
+
+        }
+        }
+
+        @keyframes payments-text {
+        from{
+            color: white;
+            text-shadow: 1px 1px 1px rgb(135, 135, 245);
+            transition: 600ms ease-in-out;
+        }
+        10%{
+            color: rgb(130, 130, 255);
+            text-shadow: 4px 5px 3px rgb(164, 164, 175);
+        }
+        to{
+            color: blue;
+            text-shadow: 25px 5px 100px rgba(195, 195, 199, 0.411);
+            transition: 600ms ease-in-out;
+
+        }
+        }
+
+        @keyframes retain{
+        from{
+            background-color: white;
+            box-shadow: 1px 1px 1px rgb(135, 135, 245);
+            transition: 230ms ease-in-out
+        }
+        10%{
+            background-color: rgb(130, 130, 255);
+            box-shadow: 4px 5px 3px rgb(83, 83, 161);
+        }
+        to{
+            background-color: blue;
+            box-shadow: 20px 20px 20px rgb(206, 206, 219);
+            transition: 500ms ease-in-out
+
+        }
+        }
+
+        @keyframes reporting{
+        from{
+            background-color: white;
+            box-shadow: 1px 1px 1px rgb(135, 135, 245);
+            transition: 230ms ease-in-out;
+        }
+        25%{
+            background-color: rgb(130, 130, 255);
+            box-shadow: 4px 5px 3px rgb(83, 83, 161);
+        }
+        to{
+            background-color: blue;
+            box-shadow: 20px 20px 20px rgb(206, 206, 219);
+            transition: 500ms ease-in-out;
+
+        }
+        }
+
+        @keyframes convert{
+        from{
+            background-color: white;
+            box-shadow: 1px 1px 1px rgb(135, 135, 245);
+            transition: 230ms ease-in-out;
+        }
+        25%{
+            background-color: rgb(130, 130, 255);
+            box-shadow: 4px 5px 3px rgb(83, 83, 161);
+        }
+        to{
+            background-color: blue;
+            box-shadow: 20px 20px 20px rgb(206, 206, 219);
+            transition: 500ms ease-in-out;
+
+        }
+        }
+
+        
+    </style>
 </head>
 <body>
+    <div class="grid-container">
+        <div class="grid-item grid-item-1">
+            <div class="flexbox-container flexbox-container-1">
+                <div class="flexbox-item flexbox-item-1"><img src="Images/logo.png" height="35px"></div>
+                <div class="flexbox-item flexbox-item-2">
+                    <h6 style="font-size:11px;" class="nav-ptext-b nav-ptext-b1"><strong>Home</strong></h6>
+                    <h6 style="font-size:11px;" class="nav-ptext-b nav-ptext-b2"><strong>Features</strong></h6>
+                    <h6 style="font-size:11px;" class="nav-ptext-b nav-ptext-b3"><strong>Pricing</strong></h6>
+                    <h6 style="font-size:11px;" class="nav-ptext-b nav-ptext-b4"><strong>How it Works</strong></h6>
+                    <h6 style="font-size:11px;" class="nav-ptext-b nav-ptext-b5"><strong>Support</strong></h6>
+                </div>
+                <div class="flexbox-item flexbox-item-3">
+                    <h7 class="nav-ptext-c nav-ptext-c1"><strong>Sign In</strong></h7>
+                    <h7 class="nav-ptext-c nav-ptext-c2"><strong>Try It Free</strong></h7>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item grid-item-2">
+            <div class="flexbox-container-2 flexbox-container-2a-1">
+                <div class="flexbox-item-2a-1-a flexbox-item-2a-left"><h1 class="h1a"><p style="font-size:140%;"><b>Focus on<br /> Your Business</b></p></h1></div>
+                <div class="flexbox-item-2a-1-b flexbox-item-2a-left"><h4 class ="h4a"><p style="font-size:120%;"><b>Let Us Handle Everything Else</b></p></h2></div>
+                <div class="flexbox-item-2a-1-c flexbox-item-2a-left"><h7 class ="h7a"><b></b>Subscription Billing, powered with revenue retention tools and a <br />
+                seamless customer experiance - without the technical hurdles.</h2></div>
+                <div class="flexbox-item-2a-1-d flexbox-item-2a-left"></div>
+                    <div class="flexbox-item-2a-1- flexbox-item-2aa-left" ><p class="ptext-2a-1"><strong>Sign Up Free</strong></p><p class="ptext-2a-2"><img class="chatbox" src ="Images/sn-chatbox.png" height = 20px><strong>Chat with us</strong></p></div>
+                <div class="flexbox-item-2a-1-e flexbox-item-2a-left"><h9 class ="h2a"><strong>Already using <b>Double</b> Tap? <b>Sign In</b></strong></h9></div>
+                <div class="flexbox-item-2a-1-f flexbox-item-2a-left">    
+                    <ul class="ul-2a-1-f">
+                        <p class="list-item-2a-1">Free 14 day Trial</popx>
+                        <li class="list-item-2a-2">Manage Customers in Minutes</li>
+                        <li class="list-item-2a-3">Cancel at Anytime</li>
+                        
+
+                    </ul>
+                </div> 
+            </div>
+            <div class="flexbox-container flexbox-container-2a-2">
+                <div class="flexbox-item-2a-7-a flexbox-item-2aa-right"><img src="Images/Header-Side-2.png" height="480px"></div>
+            </div>
+        </div>
+        <div class="grid-item grid-item-3">
+            <div class="break-1"><hr /></div>
+            <div class="flexbox-container-3a-2">Start to Explore Double Tap</div>
+            <div class="flexbox-container-3a-3"><strong>A new and better way for small buisness to manage thier customer base, payments and <br />  keep track of internal tasks</strong></div>
+
+        </div>
+        <div class="grid-item grid-item-4">
+            <div class="flex-container-4a-1">
+                <div class="pbox-1"><img src="Images/Path 236.png" height="55px"  class="pbox-p pbox-1-p"><p class="pbox-1-t pbox-t">Payments</p><p class="money-sign">$</p></div>
+                <div class="pbox-2"><img src="Images/Page-1.png" height="40px" class="pbox-p pbox-2-p"><p class="pbox-2-t pbox-t">Retain</p></div>
+                <div class="pbox-3"><img src="Images/layer1.png" height="55px" class="pbox-p pbox-3-p"><p class="pbox-3-t pbox-t">Reporting</p></div>
+                <div class="pbox-4"><img src="Images/upanddown opposite sidebyside updown directions two arrows.png" height=40px" class="pbox-p pbox-4-p"><p class="pbox-4-t pbox-t">convert</p></div>
+            </div>   
+        </div>
+        <div class="grid-item grid-item-5">
+            <div class="flex-container-5a-1 grid-item-5a b-white-box"><img src="Images/credit-card-picture.png" height="300px" class="ccpic">  </div>
+            <div class="flex-container-5a-2 grid-item-5a b-blue-box">
+                <div class="flex-container-5a-2-a flex-item-5a-2"><p>Start accepting payments with Ease</p></div>
+                <div class="flex-container-5a-2-b flex-item-5a-2"><p>Deliver the world of payment options and seamless cheackout<br />
+                experiances, making it easy for your customers to pay you for your<br /> products and services.</p></div>
+                <ul class="flex-container-5a-2-c flex-item-5a-2">
+                    <li class="list-2a list-2">Accept credit & debit cards, Paypal, ACH, Apple pay and more with the flick<br />
+                    of a switch</li>
+                    <li class="list-2b list-2">Process transactions in up to 32 diffrent currencies.</li>
+                    <li class="list-2c list-2">integrate with popular payment gateways like Stripe, and Braintree</li>
+                    <li class="list-2d list-2">Select from a variety of diffrent chekout options and experiances</li>
+                </ul>
+                <div class="flex-container-5a-2-d flex-item-5a-2"><p class="lm">Learn More</p></div>
+            </div>
+        </div>
+        <div class="grid-item grid-item-6">  
+        </div>
+        <div class="grid-item grid-item-7">
+            <div class="grid-container-7a">
+                <p>Solutions to fit your Business Needs</p>
+            </div>
+        </div>
+        <div class="grid-item grid-item-8">
+            <div class="grid-container-8-a">
+                <img src="Images/Solutions - Email - 1.png" height="300px" class="idswatch-8-a idswatch-8-a-1">
+                <img src="Images/Solutions - Email - 2.png" height="300px" class="idswatch-8-a idswatch-8-a-2">
+                <img src="Images/Solutions - Email - 3.png" height="300px" class="idswatch-8-a idswatch-8-a-3">
+                <img src="Images/Solutions - Email - 4.png" height="300px" class="idswatch-8-a idswatch-8-a-4">
+
+            </div>
+        </div>
+    
+    </div>
     
 </body>
+<footer>
+
+</footer>
 </html>
